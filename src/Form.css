@@ -1,0 +1,89 @@
+body {
+  zoom: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+.formComp {
+  position: absolute;
+  height: 400px;
+  width: 700px;
+  margin: 6% 0% 0% 26%;
+  padding-top: 25px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+.h1 {
+  margin-top: -2%;
+  margin-bottom: 10%;
+}
+.backbtn {
+  position: absolute;
+  left: 28%;
+  top: 37%;
+  height: 38px;
+  width: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.backbtn:hover {
+  color: aqua;
+}
+label {
+  margin-right: 5%;
+  text-align: left;
+}
+input {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: none;
+  color: white;
+  height: 25px;
+  width: 225px;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.ftext {
+  text-align: left;
+  margin-left: 250px;
+  margin-top: -25px;
+  margin-bottom: 50px;
+}
+button {
+  margin-top: 10px;
+  border: none;
+  width: max-content;
+  padding: 12px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: aqua;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 1;
+  color: white;
+  background-color: rgb(28, 136, 136);
+}
+.cong {
+  margin-top: -38px;
+  margin-left: 35px;
+  zoom: 1.5;
+}
+.user {
+  margin-top: -38px;
+  zoom: 1.3;
+  margin-left: -20px;
+}
+.details {
+  text-align: left;
+  margin-left: 250px;
+  /* margin-top: -50px; */
+}
